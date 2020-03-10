@@ -14,15 +14,15 @@
         <div>
             <!-- Icone  -->
 
-            <a href="index.php" ><img src="images/Ludovic Bourget.png" alt="logo" id="logo"></a>
+            <a href="index.php" ><img src="images/Ludovic Bourget.png" alt="logo" class="logo"></a>
             </div>
             <!-- titre -->
-            <diV id="back">
-            <h1 id="titre1"> Mes centres d'Intérêt </h1>
+            <diV class="back">
+            <h1 class="titre1"> Mes centres d'Intérêt </h1>
             </diV> 
     <div>
         <!-- Premier paragraphe  -->
-        <p id="para1">
+        <p class="para1">
         J'aime bien tout ce qui te touche à la nouvelle technique, ainsi qu'au développement en front.</br>
         Je m'intéresse aussi a la musique, au film, et à différente série TV. </br>
         Je regarde aussi la façon dont ils ont été fait avec les différents effets spéciaux. </br>
@@ -30,17 +30,17 @@
         je privilégie plus les jeux vidéo avec des beaux graphiques et les jeux de stratégie avec une bonne campagne solo.</br>
         </p>
     </div>
-    <div id="zoneimage">
-        <a><img src="images/interet.webp" alt="logo" id="image1" class="groupe"></a>
+    <div class="zoneimage">
+        <a><img src="images/interet.webp" alt="logo" class="image1" class="groupe"></a>
     </div>
     <div>
-        <footer id="fond">
+        <footer class="fond">
             <!-- Marge en CSS -->
-            <div id="margin">
+            <div class="margin">
                 <!-- Logo -->
-                <img src="images/logo.png" alt="logo" id="logo2">
+                <img src="images/logo.png" alt="logo" class="logo2">
                 <!-- Menu -->
-                <ul id="menu">
+                <ul class="menu">
                     <li>
                         <a href="index.php" >
                             Home

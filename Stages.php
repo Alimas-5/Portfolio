@@ -14,15 +14,15 @@
         <div>
             <!-- Icone  -->
 
-            <a href="index.php" ><img src="images/Ludovic Bourget.png" alt="logo" id="logo"></a>
+            <a href="index.php" ><img src="images/Ludovic Bourget.png" alt="logo" class="logo"></a>
             </div>
             <!-- titre -->
-            <diV id="back">
-            <h1 id="titre1"> Mes différents stages </h1>
+            <diV class="back">
+            <h1 class="titre1"> Mes différents stages </h1>
             </diV> 
     <div>
         <!-- Premier paragraphe  -->
-        <p id="para1">
+        <p class="para1">
             Mon premier stage à la Société SNCF à Saint Jacques de la lande (stage d'une durée de trois semaines)<br/>                   
             C'était essentiellement un stage d'observation mais j'ai quand même réussi à obtenir certaines bases dans le domaine des trains et leur fonctionnement,<br/> 
             ce qui m'a aidée pour mon job d'été que j'ai fait là-bas.<br/>
@@ -38,17 +38,17 @@
 
         </p>
     </div>
-    <div id="zoneimage">
-        <a><img src="images/stage.webp" alt="logo" id="image1" class="groupe"></a>
+    <div class="zoneimage">
+        <a><img src="images/stage.webp" alt="logo" class="image1" class="groupe"></a>
     </div>
     <div>
-        <footer id="fond">
+        <footer class="fond">
             <!-- Marge en CSS -->
-            <div id="margin">
+            <div class="margin">
                 <!-- Logo -->
-                <img src="images/logo.png" alt="logo" id="logo2">
+                <img src="images/logo.png" alt="logo" class="logo2">
                 <!-- Menu -->
-                <ul id="menu">
+                <ul class="menu">
                     <li>
                         <a href="index.php" >
                             Home

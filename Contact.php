@@ -15,15 +15,15 @@
     <div>
         <!-- Icone  -->
 
-        <a href="index.php" ><img src="images/Ludovic Bourget.png" alt="logo" id="logo"></a>
+        <a href="index.php" ><img src="images/Ludovic Bourget.png" alt="logo" class="logo"></a>
         </div>
         <!-- titre -->
-        <diV id="back">
-        <h1 id="titre1"> Comment me contacter </h1>
+        <diV class="back">
+        <h1 class="titre1"> Comment me contacter </h1>
         </diV> 
 <div>
     <!-- Premier paragraphe  -->
-    <p id="para1">
+    <p class="para1">
         Nom: Bourget <br/>
         Prenom: Ludovic <br/>
         Adresse: Bruzon 114 <br/>
@@ -38,21 +38,21 @@
 <form action="/Contact.php" method="post">
     <div>
         <label for="name">Nom :</label>
-        <input type="text" id="name" name="user_name" placeholder="Votre Nom" required>
+        <input type="text" class="name" name="user_name" placeholder="Votre Nom" required>
     </div>
     <div>
         <label for="mail">e-mail :</label>
-        <input type="email" id="mail" name="user_mail" placeholder="Votre email" required>
+        <input type="email" class="mail" name="user_mail" placeholder="Votre email" required>
     </div>
     <div>
         <label for="msg">Message :</label>
-        <textarea id="msg" name="user_message" placeholder="Votre Message" required></textarea>
+        <textarea class="msg" name="user_message" placeholder="Votre Message" required></textarea>
     </div>
     <div class="button">
         <button type="submit" name="formsend">Envoyer le message</button>
     </div>
 </form>
-<p id="formulaire">
+<p class="formulaire">
     <?php 
 
     // connexion à la base de donnée 
@@ -77,17 +77,17 @@ echo 'Formulaire envoyé !';
 </p>
 
 
-<div id="zoneimage">
-    <a><img src="images/contacte.png" alt="logo" id="image1" class="groupe"></a>
+<div class="zoneimage">
+    <a><img src="images/contacte.png" alt="logo" class="image1" class="groupe"></a>
 </div>
 <div>
-    <footer id="fond">
+    <footer class="fond">
         <!-- Marge en CSS -->
-        <div id="margin">
+        <div class="margin">
             <!-- Logo -->
-            <img src="images/logo.png" alt="logo" id="logo2">
+            <img src="images/logo.png" alt="logo" class="logo2">
             <!-- Menu -->
-            <ul id="menu">
+            <ul class="menu">
                 <li>
                     <a href="index.php" >
                         Home

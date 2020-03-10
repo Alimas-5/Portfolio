@@ -12,22 +12,22 @@
     <link rel="icon" href="../Documents/Portfolio Campus contest/Portfolio/images/Ludovic Bourget.ico" />
 </head>
 
-<body id="body">
+<body class="body">
     <!-- Icone  -->
 
     <div>
-    <a href="index.php" ><img src="images/Ludovic Bourget.png" alt="logo" id="logo"></a> 
+    <a href="index.php" ><img src="images/Ludovic Bourget.png" alt="logo" class="logo"></a> 
     </div>
     <!-- titre -->
-    <diV id="back">
-    <h1 id="titre1"> Portfolio </h1>
+    <diV class="back">
+    <h1 class="titre1"> Portfolio </h1>
     </diV> 
 
     <!-- Zone image -->
 
-    <div id="all">
+    <div class="all">
 
-        <div id="zoneimage">   
+        <div class="zoneimage">   
     
                 <a href="A propos.php"><img src="images/A propos.webp" alt="logo" class="groupe">A propos</a>
                 <a href="Intérêt.php"><img src="images/interet.webp" alt="logo" class="groupe">Intérêt</a>
@@ -46,13 +46,13 @@
     
     <div>
         <!-- Couleur de fond -->
-        <footer id="fond">
+        <footer class="fond">
             <!-- Marge en CSS -->
-            <div id="margin">
+            <div class="margin">
                 <!-- Logo -->
-                <img src="images/logo.png" alt="logo" id="logo2">
+                <img src="images/logo.png" alt="logo" class="logo2">
                 <!-- Menu -->
-                <ul id="menu">
+                <ul class="menu">
                     <li>
                         <a href="#" >
                             Home

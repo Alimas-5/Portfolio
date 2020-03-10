@@ -2,12 +2,11 @@
 html, body {
     margin: 0;
     padding: 0;
-    background: ;
     /*font-family: 'Playfair Display', serif;*/
     font-family: 'Open Sans', sans-serif;
 }
 
-#back {
+.back {
     background-image: linear-gradient(to right, red, orange);
     height: 32px;
     background-position: center;
@@ -15,7 +14,7 @@ html, body {
 
 }
 
-#logo {
+.logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -24,7 +23,7 @@ html, body {
     height: 135px;
 }
 
-#titre1 {
+.titre1 {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -33,7 +32,7 @@ html, body {
     color: white;
 }
 
-#para1 {
+.para1 {
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
@@ -42,12 +41,12 @@ html, body {
 
 }
 
-#fond {
+.fond {
     background-image: linear-gradient(to right, red, orange);
     height: 167px;
 }
 
-#margin {
+.margin {
     width: 990px;
     margin-top: auto;
     margin-bottom: auto;
@@ -55,7 +54,7 @@ html, body {
     margin-left: auto;
 }
 
-#logo2 {
+.logo2 {
     float: right;
     margin-right: 5px;
     margin-top: 5px;
@@ -63,19 +62,19 @@ html, body {
     width: 150px;
 }
 
-#menu li {
+.menu li {
     display: inline-block;
     margin-top: 70px;
     margin-right: 50px;
 
 }
 
-#menu li a {
+.menu li a {
     color: white;
     text-decoration: none;
 }
 
-#menu {
+.menu {
     margin-left: 25px;
     padding-left: 0px;
 }
@@ -87,7 +86,7 @@ html, body {
      
 }
 
-#zoneimage {
+.zoneimage {
     text-align: center;
 }
 

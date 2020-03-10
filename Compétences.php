@@ -11,15 +11,15 @@
         <div>
             <!-- Icone  -->
 
-            <a href="index.php" ><img src="images/Ludovic Bourget.png" alt="logo" id="logo"></a>
+            <a href="index.php" ><img src="images/Ludovic Bourget.png" alt="logo" class="logo"></a>
             </div>
             <!-- titre -->
-            <diV id="back">
-            <h1 id="titre1"> Mes différentes compétences </h1>
+            <diV class="back">
+            <h1 class="titre1"> Mes différentes compétences </h1>
             </diV> 
     <div>
         <!-- Premier paragraphe  -->
-        <p id="para1">
+        <p class="para1">
             J'ai différentes compétences en informatique notamment dans les réseaux comme: <br/><br/>
             la Restauration de données et la configuration de messagerie, <br/>
             le formatage de disque dur et l'installation de système d'exploitation, <br/>
@@ -29,17 +29,17 @@
             J'ai aussi aprit récemment les bases du HTML/CSS ainsi que Javascript.<br/>
         </p>
     </div>
-    <div id="zoneimage">
-        <a><img src="images/competence.jpg" alt="logo" id="image1" class="groupe"></a>
+    <div class="zoneimage">
+        <a><img src="images/competence.jpg" alt="logo" class="image1" class="groupe"></a>
     </div>
     <div>
-        <footer id="fond">
+        <footer class="fond">
             <!-- Marge en CSS -->
-            <div id="margin">
+            <div class="margin">
                 <!-- Logo -->
-                <img src="images/logo.png" alt="logo" id="logo2">
+                <img src="images/logo.png" alt="logo" class="logo2">
                 <!-- Menu -->
-                <ul id="menu">
+                <ul class="menu">
                     <li>
                         <a href="index.php" >
                             Home

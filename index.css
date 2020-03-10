@@ -1,12 +1,11 @@
 html, body {
     margin: 0;
     padding: 0;
-    background: ;
     /*font-family: 'Playfair Display', serif;*/
     font-family: 'Open Sans', sans-serif;
 }
 
-#titre1 {
+.titre1 {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -14,7 +13,7 @@ html, body {
 
 }
 
-#back {
+.back {
     background-image: linear-gradient(to right, red, orange);
     height: 35px;
     background-position: center;
@@ -22,7 +21,7 @@ html, body {
 
 }
 
-#logo {
+.logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -31,7 +30,7 @@ html, body {
     height: 135px;
 }
 
-#all {
+.all {
     width: 990px;
     margin-left: auto;
     margin-right: auto;
@@ -39,7 +38,7 @@ html, body {
 }
 
 
-#zoneimage {
+.zoneimage {
     float: left;
     margin-bottom: 30px;
 }
@@ -51,12 +50,12 @@ html, body {
     
 }
 
-#zoneimage > img:nth-child(even)
+.zoneimage > img:nth-child(even)
 {
     margin-right: 0px;
 }
 
-#zoneimage>a
+.zoneimage>a
 {
     display: block ;
     float: left;
@@ -66,17 +65,17 @@ html, body {
     text-align: center;
 }
 
-#zoneimage
+.zoneimage
 {
     margin-left: -30px;
 }
 
-#fond {
+.fond {
     background-image: linear-gradient(to right, red, orange);
     height: 167px;
 }
 
-#margin {
+.margin {
     width: 990px;
     margin-top: auto;
     margin-bottom: auto;
@@ -84,7 +83,7 @@ html, body {
     margin-left: auto;
 }
 
-#logo2 {
+.logo2 {
     float: right;
     margin-right: 5px;
     margin-top: 5px;
@@ -92,23 +91,19 @@ html, body {
     width: 150px;
 }
 
-#menu li {
+.menu li {
     display: inline-block;
     margin-top: 70px;
     margin-right: 50px;
 
 }
 
-#menu li a {
+.menu li a {
     color: white;
     text-decoration: none;
 }
 
-#menu {
+.menu {
     margin-left: 25px;
     padding-left: 0px;
-}
-
-#all {
-    
 }

@@ -13,31 +13,31 @@
     <body>
         <div>
             <!-- Icone  -->
-            <a href="index.php" ><img src="images/Ludovic Bourget.png" alt="logo" id="logo"></a>
+            <a href="index.php" ><img src="images/Ludovic Bourget.png" alt="logo" class="logo"></a>
             </div>
             <!-- titre -->
-            <diV id="back">
-            <h1 id="titre1"> Etudiant en informatique (Développement) </h1>
+            <diV class="back">
+            <h1 class="titre1"> Etudiant en informatique (Développement) </h1>
             </diV> 
     <div>
         <!-- Premier paragraphe  -->
-        <p id="para1">
+        <p class="para1">
             Actuellement en première année de Bachelor informatique a l'école informatique IMIE.<br/>
             Je suis diplomé d'un baccalauréat Système numérique option C réseaux,<br/> 
             ainsi qu'un Brevet d'Etudes Professionnelles : Systèmes Numériques.
         </p>
     </div>
-    <div id="zoneimage">
-        <a><img src="images/A propos.webp" alt="logo" id="image1" class="groupe"></a>
+    <div class="zoneimage">
+        <a><img src="images/A propos.webp" alt="logo" class="image1" class="groupe"></a>
     </div>
     <div>
-        <footer id="fond">
+        <footer class="fond">
             <!-- Marge en CSS -->
-            <div id="margin">
+            <div class="margin">
                 <!-- Logo -->
-                <img src="images/logo.png" alt="logo" id="logo2">
+                <img src="images/logo.png" alt="logo" class="logo2">
                 <!-- Menu -->
-                <ul id="menu">
+                <ul class="menu">
                     <li>
                         <a href="index.php" >
                             Home
